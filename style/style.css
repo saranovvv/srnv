@@ -17,7 +17,7 @@ a{
 
 .space {
   background: rgba(128, 0, 128, 0.1) center / 200px 200px round;
-  border: 1px dashed purple;
+  /* border: 1px dashed purple; */
   bottom: 0;
   left: 0;
   position: absolute;
@@ -126,6 +126,7 @@ a{
       rgba(255, 255, 255, 0)
     );
 }
+}
 
 @keyframes space {
   40% {
@@ -140,6 +141,4 @@ a{
   100% {
     transform: rotate(360deg);
   }
-}
-
 }
