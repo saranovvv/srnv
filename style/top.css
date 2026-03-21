@@ -1,0 +1,42 @@
+.top{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+
+}
+
+.top-links > a{
+    margin: 2%;
+}
+
+.main{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 50px;
+}
+
+.main-opis{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.main-przycisk{
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 85%;
+}
+
+.przycisk-wiecej{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 4%;
+    text-decoration: none;
+}

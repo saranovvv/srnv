@@ -1,0 +1,15 @@
+.content{
+    width: 100%;
+}
+
+.content-kontener{
+    width: 100%;
+}
+.content-kontener-lewy{
+    width: 50%;
+    float: left;
+}
+.content-kontener-prawy{
+    width: 50%;
+    float: right;
+}
