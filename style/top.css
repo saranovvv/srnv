@@ -3,7 +3,6 @@
     text-align: center;
     font-size: 30px;
     padding: 5%;
-
 }
 
 .top-links > a{
@@ -29,10 +28,12 @@
 .main-przycisk{
     width: 80%;
     margin: 10%;
-    margin-bottom: 85%;
+    margin-bottom: 60%;
 }
 
 .przycisk-wiecej{
+    color: black;
+    font-size: 20px;
     background-color: lightgray;
     border-radius: 10px;
     width: auto;
