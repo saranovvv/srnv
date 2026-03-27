@@ -1,0 +1,80 @@
+@media screen and (max-width:1025px){
+    .omnie-tekst .omnie-zdjecie .kursy-tekst .kursy-zdjecie{
+        margin: 0;
+    }
+    .omnie-tekst .kursy-tekst{
+        font-size: 10px;
+    }
+    .kursy-zdjecie .kursy-tekst{
+        width: 50%;
+    }
+    
+    .omnie-zdjecie > img {
+        height: 400px;
+    }
+
+    
+}
+@media screen and (max-width:768px){
+    .omnie-zdjecie > img{
+        height: 350px;
+    }
+}
+@media screen and (max-width:600px) {
+   
+    .omnie-tekst .kursy-tekst{
+        font-size: 10px;
+    }
+    .omnie-tekst{
+        margin: 2%;
+        width: auto;
+        transform: rotate(1deg);
+    }
+    .omnie-zdjecie{        
+        margin: 2%;
+        transform: rotate(-1deg);
+        width: auto;
+    }
+    .kursy-tekst{
+        margin: 2%;
+        margin-top: 5%;
+        width: auto;
+        transform: rotate(1deg);
+    }
+    .kursy-zdjecie{
+        margin: 2%;
+        width: auto;
+        transform: rotate(-1deg);
+    }
+    .omnie-zdjecie > img{width: auto;}
+}
+@media screen and (max-width:430px) {
+    *{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .omnie-zdjecie{
+        margin-left: 12%;
+    }
+    .omnie-zdjecie > img {
+        height: 350px;
+    }
+    .kursy-zdjecie{
+        width: 70%;
+        margin-left: 15%;
+
+    }
+}
+@media screen and (max-width:320px){
+   .main-opis{
+    font-size: 12px;
+   }
+    .main-title{
+        font-size: 20px;
+    }
+    .omnie-zdjecie > img {
+        height: 250px;
+    }
+}

@@ -10,7 +10,6 @@ p > a{
 
 .kontener{
     text-align: left;
-    width: 50%;
     float: left;
     font-size: 20px;
     color: #3B1E54;
@@ -49,23 +48,36 @@ p > a{
 }
 
 .kursy-tekst{
-    margin-top: 10%;
+    margin-top: 12%;
+    margin-left: 5%;
     transform: rotate(3deg);
     transition: 0.5s ease-in-out;
-
+    float: right;
+    /* float: left; */
+    margin-right: 10%;
 }
-
 .kursy-zdjecie{
+    float: left;
+    width: 30%;
     text-align: center;
-    transition: 0.5s ease-in-out; 
-
+    transition: 1s ease-in-out; 
+    margin-left: 10%;
+    padding: 1%;
+    transform: rotate(3deg);
 }
+.kursy-tekst:hover{
+    transform: rotate(0);
+}
+.kursy-zdjecie:hover{
+    transform: rotate(0);
+}
+
+
 .kursy-zdjecie > img {
     width: 33.3%;
     border-radius: 15px;
     float: left;
 }
-
 .schodki1{
     margin-right: 66.6%;
 }
