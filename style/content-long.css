@@ -6,5 +6,6 @@
     /* margin-top: 2%; */
     margin-left: 1%;
     border-top-left-radius: 0.625rem;    
-    border-top-right-radius: 0.625rem;   
+    border-top-right-radius: 0.625rem;  
+    display: grid; 
 }

@@ -1,9 +1,6 @@
-
 p > a{
     color: #B153D7;
 }
-
-
 .content{
     height: auto;
     width: 100%;
@@ -28,6 +25,7 @@ p > a{
 
 .o-mnie .kursy .electro {
     width: 100%;
+    display: grid;
 }
 
 .omnie-tekst{
@@ -41,7 +39,6 @@ p > a{
 
 .omnie-zdjecie{
     text-align: center;
-    width: 40%;
     transform: rotate(-5deg);   
     transition: 1s ease-in-out;
 }
@@ -50,7 +47,8 @@ p > a{
 }
 
 .kursy-tekst{
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin-top: 5%;
     transform: rotate(3deg);
     transition: 0.5s ease-in-out;
     float: right;
@@ -58,12 +56,12 @@ p > a{
 }
 .kursy-zdjecie{
     float: left;
-    width: 30%;
+    width: 33.3%;
     text-align: center;
     transition: 1s ease-in-out; 
     margin-left: 10%;
-    padding: 1%;
     transform: rotate(3deg);
+    display: grid;
 }
 .kursy-tekst:hover{
     transform: rotate(0);
@@ -71,32 +69,25 @@ p > a{
 .kursy-zdjecie:hover{
     transform: rotate(0);
 }
-.kursy-zdjecie > img {
-    width: 33.3%;
-    border-radius: 0.9375rem;
-    float: left;
-}
 .schodki1{
-    margin-right: 66.6%;
+    justify-self: left;
 }
 .schodki2{
-    margin-right: 33.3%;
-    margin-left: 33.3%;
+    justify-self: center;
 }
 .schodki3{
-    margin-left: 66.6%;
+    justify-self: right;
 }
 
 .electro-tekst{
     transition: ease-in-out 0.7s;
     transform: rotate(2deg);
-    float: left;
+    margin-top: 7%;
 }
 .electro-zdjecie {
     transition: ease-in-out 0.7s;
     text-align: center;
     transform: rotate(-1deg);
-    float: right;
     margin-right: 5%;
 }
 
@@ -104,7 +95,7 @@ p > a{
     transform: rotate(0deg);
 }
 .electro-zdjecie:hover{
-    transform: rotate(0deg);
+    transform: rotate(1deg);
 }
 
 .zdjecie{

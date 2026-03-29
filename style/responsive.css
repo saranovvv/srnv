@@ -1,0 +1,145 @@
+@media (max-width:1440px){
+    .kursy-zdjecie > img{
+        width: 33.3%;
+    }
+}
+
+@media (max-width:1024px){
+    /* TOP */
+    body{
+        grid-template-rows: 1fr 1fr;
+    }
+    .top{
+        font-size: 2rem;
+    }
+    .main-opis{
+        width: 70%;
+        margin-left: 15%;
+        font-size: clamp(0.8rem, 1.5rem, 2rem);
+
+    }
+    .main-przycisk{
+        margin-bottom: 200%;
+    }
+    .przycisk-wiecej{
+        font-size: 2rem;
+    }
+    /* KONTENT */
+    .content{
+        row-gap: 0;
+    }
+    .kontener{
+        width: 40%;
+        font-size: min(1rem, 90%);
+        height: auto;
+    }
+    .omnie-tekst{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .omnie-zdjecie{
+        float: right;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+    .kursy-tekst{
+        margin-top: 0;
+        margin-right: 5%;
+    }
+    .kursy-zdjecie{
+        margin-left: 5%;
+    }
+    .electro-tekst{
+        margin-top: 0;
+    }
+    .electro-zdjecie{
+        margin-left: 10%;
+    }
+
+    /* BOT */
+    .content-long{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .bot{
+        grid-template-columns: 5fr 1fr;
+    }
+    .bot-tabela table{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:600px){
+    /* STYLE */
+    body{
+            display: -ms-inline-grid;
+    }
+    /* TOP */
+    .main{
+        margin-top: 5%;
+    }
+    .main-przycisk{
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
+
+    /* kontent */
+    .content{
+        grid-auto-columns: auto;
+        row-gap: 1%;
+    }
+    .o-mnie{
+        width: 100%;
+    }
+    .omnie-tekst{
+        font-size: 0.9rem;
+        width: 90%;
+        transform: rotate(1deg);
+    }
+    .omnie-zdjecie{
+        margin-top: 7%;
+        width: 90%;
+        transform: rotate(-1deg);
+        margin-bottom: 0;
+    }
+    .kursy-tekst{
+        font-size: 0.9rem;
+        width: 90%;
+        transform: rotate(-1deg);
+        float: left;
+        margin-top: 0;
+    }
+    .kursy-zdjecie{
+        margin-top: 7%;
+        width: 80%;
+        transform: rotate(0.5deg);
+    }
+
+    .electro-tekst{
+        font-size: 0.9rem;
+        width: 90%;
+        transform: rotate(1deg);
+    }
+    .electro-zdjecie{
+        margin-top: 7%;
+        width: 80%;
+        transform: rotate(-0.5deg);   
+        margin-bottom: 20%;
+        margin-left: 8%;
+    }
+
+    /* BOT */
+
+    .content-long{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .bot-tabela table{
+        width: 100%;
+    }
+    .pwrt{
+        display: none;
+    }
+
+}
