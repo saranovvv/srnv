@@ -7,9 +7,47 @@
     border-top-left-radius: 0.625rem;    
     border-top-right-radius: 0.625rem;  
     display: grid; 
-    transition: 0.3s linear;
     color: #3B1E54;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 .content-long h2{
     text-align: center;
+}
+.content-long-tekst{
+    padding: 2%;
+    font-size: 1.40rem;
+}
+
+.content-long-tekst-tytul{
+    display: grid;
+    width: 50%;
+    margin-left: 25%;
+    color: #D4BEE4;
+    background-color: #3B1E54;
+    padding: 1%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.content-long-tekst-tekst{
+    display: none;
+}
+
+
+
+@keyframes smooth {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.show{
+    animation: smooth 1s ease;
+      grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease;
+  display: grid;
 }
