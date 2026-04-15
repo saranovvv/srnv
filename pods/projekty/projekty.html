@@ -37,10 +37,24 @@
     </div>
     <div class="main">
         <div class="main-tab">
-            <button class="main-tab-links">HomeLab</button>
-            <button class="main-tab-links">Cash&Sum</button>
-            <button class="main-tab-links">Zachłanne kolorowanie grafu</button>
-            <button class="main-tab-links">Symulator Banku</button>
+            <button class="main-tab-links" onclick="opentab(event, 'homelab')" id="default">HomeLab</button>
+            <button class="main-tab-links" onclick="opentab(event, 'kasa')">Cash&Sum</button>
+            <button class="main-tab-links" onclick="opentab(event, 'graf')">Zachłanne kolorowanie grafu</button>
+            <button class="main-tab-links" onclick="opentab(event, 'bank')">Symulator Banku</button>
+        </div>
+        <div class="main-content">
+            <div id="homelab" class="main-content-tab">
+                lab
+            </div>
+            <div id="kasa" class="main-content-tab">
+                kasa
+            </div>
+            <div id="graf" class="main-content-tab">
+                graf
+            </div>
+            <div id="bank" class="main-content-tab">
+                bank
+            </div>
         </div>
     </div>
     <div class="bottom">
@@ -84,5 +98,9 @@
     <div class="space stars2"></div>
     <div class="space stars3"></div>
     <script src="./jsprojekty/script.js"></script>
+    <script>
+        document.getElementById("default").click();
+    </script>
+    
 </body>
 </html>
