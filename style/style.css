@@ -11,7 +11,7 @@ body{
         font-family: "Roboto", sans-serif;
         color: white;
         display: grid;
-        grid-template-rows: 2fr 3fr;
+        grid-template-rows: 2fr 3fr 0fr;
 }
 
 a{

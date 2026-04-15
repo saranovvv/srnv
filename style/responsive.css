@@ -1,9 +1,12 @@
 @media (max-width:1440px){
+    body{
+        grid-template-rows: 1fr 2fr 0fr;
+    }
     .kursy-zdjecie > img{
         width: 33.3%;
     }
-}
 
+}
 @media (max-width:1024px){
     /* TOP */
     body{
