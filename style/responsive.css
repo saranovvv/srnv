@@ -1,17 +1,24 @@
 @media (max-width:1440px){
     body{
-        grid-template-rows: 1fr 2fr 0fr;
+        grid-template-rows: 1fr 1fr 0fr;
+        row-gap: 3%;
+    }
+    .omnie-tekst{
+        margin-top: 0;
     }
     .kursy-zdjecie > img{
         width: 33.3%;
     }
 
+
 }
 @media (max-width:1024px){
     /* TOP */
+
     body{
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 0fr 0fr;
     }
+
     .top{
         font-size: 2rem;
     }
@@ -46,10 +53,11 @@
         margin-bottom: 0;
     }
     .kursy-tekst{
-        margin-top: 0;
+        margin-top: 5%;
         margin-right: 5%;
     }
     .kursy-zdjecie{
+        margin-top: 2%;
         margin-left: 5%;
     }
     .electro-tekst{
